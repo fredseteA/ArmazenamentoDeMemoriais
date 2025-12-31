@@ -40,6 +40,14 @@ export default function Home() {
               <h3 className="text-lg font-medium text-blue-600">Geralda Leão (Lalae)</h3>
               <p className="text-gray-600">13/06/1918 - 15/03/2008</p>
             </Link>
+
+            <Link
+              href="/memorial/claudecir_fragozo"
+              className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
+            >
+              <h3 className="text-lg font-medium text-blue-600">Claudecir Fragozo</h3>
+              <p className="text-gray-600">13/05/1985 - 02/11/2025</p>
+            </Link>
           </div>
 
           <div className="mt-8 p-4 bg-blue-50 rounded-lg">

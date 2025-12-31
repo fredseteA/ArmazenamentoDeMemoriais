@@ -9,32 +9,28 @@ import { X } from "lucide-react"
 // Edite os dados abaixo conforme necessário
 
 const memorialData = {
-  nome: "Geralda Leão (Lalae)",
-  subtitulo: "13/06/1918 - 15/03/2008",
+  nome: "Claudecir Fragozo",
+  subtitulo: "13/05/1985 - 02/11/2025",
 
   // Se não quiser mostrar um campo, deixe vazio "" ou []
-  localDescanso: "Cemitério Municipal de Iguatama, Iguatama - MG", 
+  localDescanso: "São Francisco de Assis, Dois Vizinhos - PR", 
   datasImportantes: [] as string[],
-  profissao: "",
-  religiao: "Católica",
+  profissao: "Autônomo",
+  religiao: "Católico",
   hobbies: [] as string[],
   qualidades: [] as string[],
   jeitoSer: "",
   frases: [] as string[],
-  outrosDetalhes: `Filha de:
-  Manoel Bibiano de Carvalho (Neca Bibiano) e Edwiges Leão de Carvalho.
-  Teve 6 irmãos.
-  Casada com João Victor de Carvalho (Joca)
-  Teve 13 filhos`,
-  biografia: `De uma inteligência invejável, leitora voraz, desde cedo demonstrou ter uma personalidade própria. Enquanto suas irmãs faziam magistério, ela queria fazer contabilidade. Como na época era proibido para mulheres, preferiu largar a escola e se casar. Uma esposa que soube estar ao lado do marido conduzindo com sabedoria e inteligência toda a família. Sempre colocou a educação dos filhos em primeiro lugar. Era uma mulher de silêncio e extremamente perspicaz em suas falas, firme em suas decisões e conselhos. Uma peculiaridade era seu sorriso fácil. Por isso, muito respeitada pelos familiares, amigos e comunidade. Lalae foi referência como mulher de fé, que conduziu filhos nesse caminho espiritual. O terço era sua arma maior. Reunia os filhos desde pequenos em torno dela à noite para rezar o terço. Além de seu amor incondicional pelo Sagrado Coração de Jesus e Maria, era muito devota de São José e Santo Antônio, que era seu padrinho, já que nasceu no seu dia. Deixou esse lindo legado também aos netos e próximas gerações.`,
+  outrosDetalhes: ``,
+  biografia: `Nos despedimos de um homem que deixou marcas profundas por onde passou. Autônomo, católico, pai de dois filhos pequenos e esposo de Simone Kunz, ele foi alguém que viveu de forma intensa, verdadeira e cheia de afeto. Conhecido por sua generosidade, tinha o dom de reunir pessoas. Sua casa era sempre aberta, especialmente nos fins de semana, quando fazia questão de assar um churrasco, prosear e jogar baralho, criando momentos simples, mas inesquecíveis. Era nesses encontros que sua alegria e seu coração acolhedor se revelavam com mais força. Extrovertido, contador de histórias e piadas, fez muitos amigos ao longo da vida. Gostava de viver, de rir e de compartilhar suas experiências. Criado no bairro Santa Luzia, carregava consigo as raízes de onde veio e o carinho por todos que fizeram parte de sua caminhada. Um gesto que marcou profundamente sua história foi a decisão de se batizar um mês antes de sua partida, demonstrando sua fé e sua entrega espiritual. Esse ato permanece como um símbolo de esperança, fé e reconciliação. Sua ausência deixa saudade, mas sua memória seguirá viva no sorriso dos filhos, no amor da esposa, nas histórias contadas entre amigos e na lembrança de um homem que soube aproveitar a vida, espalhar alegria e construir laços verdadeiros. Que Deus o acolha em Sua infinita misericórdia e conforte o coração de todos que hoje sentem sua falta. Seu legado permanece vivo naqueles que tiveram o privilégio de conhecê-lo. `,
 
   galeria: [{
-      src: "/images/lalae-foto1.jpeg",
-      alt: "Foto de Fulano",
+      src: "/images/claudecir_fragozo-foto1.jpeg",
+      alt: "",
     },] as Array<{ src: string; alt: string }>,
 
   // Altere o link para o memorial específico
-  linkMemorial: "https://remember-memoriais.vercel.app/memorial/lalae",
+  linkMemorial: "https://remember-memoriais.vercel.app/memorial/claudecir_fragozo",
 }
 
 interface ModalProps {
@@ -106,7 +102,7 @@ export default function MemorialExemplo() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
+    <div className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4">
         {/* Header */}
         <div className="w-full bg-blue-300 text-center py-10 mb-8">
